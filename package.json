@@ -1,0 +1,16 @@
+{
+  "name": "memos",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agent skill: keep agent-written comments out of source code, in .agents/memos/",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
